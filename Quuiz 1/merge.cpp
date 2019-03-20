@@ -82,8 +82,9 @@ void printArray(int arr[], int size)
   
 int main() 
 { 
-	cout<<"=============================\n";
-	cout<<"Merge Sort";
+	cout<<"=============================";
+	cout<<"\n\tMerge Sort";
+	cout<<"\n-----------------------------\n";
     int arr[] = {12,10,18,20,16,133}; 
     int arr_size = sizeof(arr)/sizeof(arr[0]); 
   
